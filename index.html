@@ -4,12 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--Materialize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Google Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--End of the Favicons-->
     <title>SCool62's Coding Homepage</title>
   </head>
   <body>
-    <div class="w3-container" id="main">
-      <p>Hi, I'm SCool, also known as SCool62 or 28otters on <a href="https://scratch.mit.edu/users/28otters/" target="_blank">Scratch</a>.</p>
+    <div id="main">
+      <h1>SCool62's Coding Homepage</h1>
+      <p>Hi, I'm SCool62, also known as SCool or 28otters on <a href="https://scratch.mit.edu/users/28otters/" target="_blank">Scratch</a>.<br></p>
+      <section>
+          <div class="row">
+              <div class="col s12 l4">
+                  <h3>About Me</h3>
+                  <p>I am a Maven loving, Java programmer who plays Minecraft. My favorite language is <a href="https://java.com" target="_blank">Java</a>, which I learned about from Minecraft modding. I now make general Java projects, <a href="https://spigotmc.org" target="_blank">Spigot</a> plugins and Discord Bots. The first coding language I learned was Scratch, but I barely code on Scratch anymore. The first non-block-based coding language I learned was JavaScript, and shortly after that, HTML.</p>
+              </div>
+              <div class="col s12 l6 offsetl2">
+                  <h3>What I am working on</h3>
+                  <p>My two main projects right now are making Among Us in Minecraft (using custom plugins) and making an HTTP server in Java based on <a href="https://www.youtube.com/channel/UCpm1MIAsD2Vbn-Ek33NFqKg">Coderfromscratch's</a> tutorials.</p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="com s12 l4">
+              <h3>Coding Tips</h3>
+              <ol>
+                <li>USE MAVEN! Maven may be one of my most important discoveries as a programmer. USE IT. <a href="https://maven.apache.org" target="_blank">maven.apache.org</a>.</li>
+                <li>Get a good IDE. An IDE is one of the most important tools for a developer to have. Get used to one, and you will notice the difference. I use <a href="https://jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a> Community Edition (CE). It is free, amazing, ergonomic, easy on the eyes (with dark mode turned on) and easy to use once you get used to it. I used <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a>, a lightweight, multiperpose code editor to write this page.</li>
+                <li>This one goes after using Maven. Use libraries and dependencies. If you want to work on a project, but a key ingredient, such as a JSON parser is missing, chances are there is a library or dependency for it.</li>
+              </ol>
+            </div>
+          </div>
+      </section>
     </div>
+
+    <script src="script.js"></script>
+    <!--Materialize JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--JQuery (For initializing Materialize)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Initialize Materialize-->
+    <script>
+        $(document).ready(function(){
+            
+        });
+    </script>
   </body>
 </html>
